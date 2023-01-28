@@ -1,0 +1,137 @@
+.when2eat {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.when2eat-container {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.personal-schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35vw;
+    height: 90vh;
+    background-color: white;
+    border-radius: 20px;    
+}
+
+#when2eat-header {
+    font-size: calc(25px + 2vmin);
+    color: white;
+}
+
+.meal-container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 65vw;
+    align-items: center;
+}
+
+#when2eat-button {
+    background-color: rgb(158, 78, 78);
+    color: white;
+    font-size: calc(5px + 2vmin);
+    border-radius: 7px;
+    width: 40%;
+}
+
+#when2eat-label {
+    color: white;
+    font-size: calc(15px + 2vmin);
+    font-style: italic;
+}
+
+#meal-label {
+    background-color: white;
+    color: rgb(158, 78, 78);
+    width: 95%;
+}
+
+.meal-container {
+    display: flex;
+    flex-direction: column;
+    color: rgb(158, 78, 78);
+    height: 90vh;
+}
+
+.preference-container-outer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 29%;
+    width: 90%;
+    border-radius: 7%;
+}
+
+.preference-container-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(158, 78, 78);
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+#preference-label {
+    color: rgb(158, 78, 78);
+    font-size: calc(10px + 1.5vmin);
+}
+
+#dinein-takeout-button {
+    background-color: white;
+    color: rgb(158, 78, 78);
+    font-size: calc(7px + 1vmin);
+    width: 40%;
+    height: 15%;
+}
+
+#dinein-takeout-button:active {
+    background-color: rgb(248, 234, 186);
+    color: rgb(158, 78, 78);;
+}
+
+#where-button {
+    background-color: white;
+    color: rgb(158, 78, 78);
+    font-size: calc(7px + 1vmin);
+    width: 40%;
+    height: 15%;
+}
+
+#where-button:active {
+    background-color: rgb(248, 234, 186);
+    color: rgb(158, 78, 78);;
+}
+
+#preference-fieldset {
+    width: 10%;
+    color: white;
+}
+
+#preference-legend {
+    width: 100%;
+    color: white;
+}
+
+.meal-postings {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.5;
+    height: 95%;
+    width: 95%;
+    overflow: scroll;
+}
